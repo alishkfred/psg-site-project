@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.1em;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+header {
+    background: linear-gradient(to right, black, rgb(48, 48, 48));
+    text-align: center;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    text-align: center;
+}
+footer {
+    background: linear-gradient(to right, white, rgb(0, 217, 255), white);
+    padding: 10px 50px;
+}
+img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888;    
+    text-align:center
+}
+
+body{
+    font: 1em sans-serif;
+}
+
+.pink {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    text-align: center;
+}
+#articles {
+    background-color:rgb(255, 255, 255);
+    padding: 10px 50px;
+}
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+}
+h1 {
+    text-transform: uppercase;
+    color:rgba(255, 0, 0, 0.815);
+    font-size: 2rem;
+    font-style: italic;
+}
+h2 {
+    font-size: 1.5rem;
+    text-decoration: line;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+p:lang(en) {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none; 
+    color: red; 
+}
+
+a:hover {
+    color: yellow; 
+}
+
+a:focus {
+    outline: purple; 
+}
+
+a:hover{
+    background: #ECB524;
+}
+a:focus{
+    text-align:left;
+}
+
+ol li:nth-child(n) {
+    color:blue;
+    text-align:left;
+    background: rgb(169, 228, 255);
+}
+
+ol li:nth-child(2n) {
+    color:blue;
+    text-align:left;
+    background: #c9c9c9;
+}
+
+.main-img {
+    border: dotted;
+}
+
+#articles h2:after {
+    content: "Important!!!";
+    border: 5px;
+    color:red;
+}
+
+img+p{
+    margin-top: 100px;
+}
+
+.check-table{                       /*табличная суета*/
+    border: solid 5px rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+.check-table td,
+.check-table th {
+    padding: 5px 10px;
+    border-bottom: solid 1px black;
+}
+
+.check-table tr:nth-child(ever){
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.check-table td:last-child,
+.check-table th:last-child {
+    background-color: greenyellow;
+    text-align: center;
+}  
+
+tr:nth-child(even){
+    background-color: rgb(174, 246, 255);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(255, 174, 174);
+}
+
+th:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+th:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
